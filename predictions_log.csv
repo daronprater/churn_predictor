@@ -1,0 +1,3 @@
+timestamp,tenure,monthly_charges,contract,churn_prediction,churn_probability
+2025-06-28T20:55:09.285436,10,75.0,month-to-month,0,0.49
+2025-06-28T20:55:18.547359,50,75.0,month-to-month,0,0.37

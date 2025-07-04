@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+scikit-learn
+joblib
+pydantic
+numpy
+sqlite-utils
+python-multipart
+pandas
+datetime
+sqlite3
+pytest
+setuptools
