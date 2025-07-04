@@ -14,6 +14,7 @@ app = FastAPI()
 model = joblib.load("churn_model/churn_model.pkl")
 encoder = joblib.load("churn_model/contract_encoder.pkl")
 
+# Define the Customer model for request validation
 class Customer(BaseModel):
     customer_id: int = Field(..., example=123)
     tenure: int = Field(..., ge=0, example=12)
