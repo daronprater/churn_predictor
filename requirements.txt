@@ -11,3 +11,4 @@ datetime
 sqlite3
 pytest
 setuptools
+httpx
